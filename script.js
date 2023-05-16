@@ -16,7 +16,7 @@ window.addEventListener('load', function() {
 	// Function to get the initial contents of the file
 	function getFileContents() {
 		var xhr = new XMLHttpRequest();
-		xhr.open('GET', 'file', false);
+		xhr.open('GET', 'file.txt', false);
 		xhr.send(null);
 		return xhr.responseText;
 	}
